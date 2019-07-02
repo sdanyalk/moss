@@ -4,6 +4,7 @@ import App from './App';
 import './index.css';
 
 ReactDOM.render(
+  // eslint-disable-next-line react/jsx-filename-extension
   <App />,
-  document.getElementById('root')
+  document.getElementById('root'),
 );
