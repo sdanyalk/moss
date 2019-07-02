@@ -24,4 +24,12 @@ module.exports = {
   ],
   rules: {
   },
+  overrides: [
+    {
+      files: ['*.test.js', '*.spec.js'],
+      rules: {
+        "no-unused-expressions": "off"
+      }
+    }
+  ],
 };
